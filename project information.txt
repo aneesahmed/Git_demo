@@ -1,4 +1,4 @@
-piza = {}
+pizza = {}
 pname = ""
 while pname !="q":
 
