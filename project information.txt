@@ -1,0 +1,46 @@
+piza = {}
+pname = ""
+while pname !="q":
+
+	pname = input
+	if pname !='q'
+		pprice = input
+		piza[pname] = pprice
+--
+piza = {}
+try: 
+	file open
+	load json data into dictionary
+expcept
+	pirnt(file not exist message)
+
+pname = ""
+while pname !="q":
+	pname = input
+	if pname =='q':
+		break
+	elif pname == "list":
+		print all value in the dictionary
+	elif pname in piza:
+		print(pname, "already exist, with",  piza[pname] )
+	
+	price = int(input("price"))
+	piza[pname] = pprice
+
+	
+
+	
+-----
+save in json
+now we need to add topping (extra chicken, extra cheese)
+and we need to add drinks (make seperate dictinary as it will be same for all type of piza)
+
+
+
+
+
+
+
+
+
+
